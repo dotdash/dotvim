@@ -6,6 +6,8 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
+Bundle 'cscope_macros.vim'
+
 Bundle 'tpope/vim-fugitive'
 
 Bundle 'tpope/vim-surround'
