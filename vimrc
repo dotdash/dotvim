@@ -25,6 +25,8 @@ Bundle 'ewiplayer/vim-scala'
 Bundle 'indenthaskell.vim'
 Bundle 'syntaxhaskell.vim'
 
+Bundle 'php.vim--Hodge'
+
 Bundle 'Conque-Shell'
 
 Bundle 'xoria256.vim'
