@@ -1,3 +1,5 @@
+"let loaded_matchparen = 1
+
 set nocompatible
 filetype off
 
