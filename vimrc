@@ -12,6 +12,7 @@ Bundle 'cscope_macros.vim'
 
 Bundle 'tpope/vim-fugitive'
 
+Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-surround'
 
 Bundle 'Shougo/vimproc'
