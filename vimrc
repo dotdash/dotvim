@@ -23,7 +23,7 @@ Bundle 'ujihisa/neco-ghc'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 
-Bundle 'ewiplayer/vim-scala'
+Bundle 'derekwyatt/vim-scala'
 
 Bundle 'indenthaskell.vim'
 Bundle 'syntaxhaskell.vim'
