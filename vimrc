@@ -9,6 +9,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 Bundle 'cscope_macros.vim'
+Bundle 'majutsushi/tagbar'
 
 Bundle 'tpope/vim-fugitive'
 
