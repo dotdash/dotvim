@@ -3,7 +3,7 @@ au FileType php setl comments=s1:/**,mb:*,ex:*/,s1:/*,mb:*,ex:*/,://,:#
 au FileType php setl formatoptions=croqn
 
 " Syntax
-let g:php_short_tags = 0
+let g:php_noShortTags = 1
 let g:php_baselib = 1
 let g:php_htmlInStrings = 1
 let g:php_sync_method = -1
