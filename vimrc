@@ -15,6 +15,7 @@ Bundle 'majutsushi/tagbar'
 
 Bundle 'tpope/vim-fugitive'
 
+Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
