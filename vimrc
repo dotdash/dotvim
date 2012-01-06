@@ -27,6 +27,8 @@ Bundle 'ujihisa/neco-ghc'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 
+Bundle 'tmallen/proj-vim'
+
 Bundle 'derekwyatt/vim-scala'
 
 Bundle 'indenthaskell.vim'
