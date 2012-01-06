@@ -36,6 +36,8 @@ Bundle 'syntaxhaskell.vim'
 
 Bundle 'Conque-Shell'
 
+Bundle 'L9'
+Bundle 'FuzzyFinder'
 Bundle 'xoria256.vim'
 colorscheme xoria256
 
