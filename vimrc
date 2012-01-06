@@ -42,6 +42,8 @@ Bundle 'FuzzyFinder'
 Bundle 'sudo.vim'
 
 Bundle 'xml.vim'
+Bundle 'mattn/zencoding-vim'
+
 Bundle 'xoria256.vim'
 colorscheme xoria256
 
