@@ -21,7 +21,6 @@ Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
 
 Bundle 'Shougo/vimproc'
-Bundle 'Shougo/unite.vim'
 Bundle 'Shougo/neocomplcache'
 Bundle 'ujihisa/neco-ghc'
 
