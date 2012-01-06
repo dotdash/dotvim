@@ -8,6 +8,8 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
+Bundle 'Align'
+
 Bundle 'cscope_macros.vim'
 Bundle 'majutsushi/tagbar'
 
