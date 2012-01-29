@@ -12,3 +12,17 @@ let g:php_folding = 0
 " Indent
 let g:PHP_autoformatcomment = 0
 set expandtab sw=2 ts=2
+
+function! PHPPreview()
+  let l:bufno = bufnr('%')
+
+  new
+  set buftype=nofile bufhidden=delete nobuflisted
+  setlocal noswapfile
+
+  put =eval('getbufline(' . l:bufno . ', 1, 99999999999)')
+  0d
+  silent! %!php
+endfunction
+
+nnoremap <F12> :call PHPPreview()<CR>
