@@ -45,6 +45,8 @@ Bundle 'sudo.vim'
 Bundle 'xml.vim'
 Bundle 'mattn/zencoding-vim'
 
+Bundle 'beyondwords/vim-twig'
+
 Bundle 'xoria256.vim'
 colorscheme xoria256
 
