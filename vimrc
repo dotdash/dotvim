@@ -22,6 +22,7 @@ Bundle 'tpope/vim-surround'
 
 Bundle 'Shougo/vimproc'
 Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neocomplcache-snippets-complete'
 Bundle 'ujihisa/neco-ghc'
 
 Bundle 'scrooloose/nerdtree'
