@@ -3,6 +3,8 @@
 set nocompatible
 filetype off
 
+let mapleader = "\\"
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
