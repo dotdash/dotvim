@@ -37,8 +37,6 @@ Bundle 'derekwyatt/vim-scala'
 Bundle 'indenthaskell.vim'
 Bundle 'syntaxhaskell.vim'
 
-Bundle 'Conque-Shell'
-
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 
@@ -48,6 +46,8 @@ Bundle 'xml.vim'
 Bundle 'mattn/zencoding-vim'
 
 Bundle 'beyondwords/vim-twig'
+
+Bundle 'benmills/vimux'
 
 Bundle 'xoria256.vim'
 colorscheme xoria256
