@@ -11,7 +11,6 @@ let g:php_folding = 0
 
 " Indent
 let g:PHP_autoformatcomment = 0
-set expandtab sw=2 ts=2
 
 function! PHPPreview()
   let l:bufno = bufnr('%')

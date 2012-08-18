@@ -69,6 +69,8 @@ set splitright splitbelow
 set list listchars=tab:>-,trail:-
 set nowrap listchars+=precedes:<,extends:>
 
+set sw=2 expandtab
+
 set ruler
 set smarttab backspace=indent,eol,start
 set mouse=a
