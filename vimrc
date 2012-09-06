@@ -51,6 +51,7 @@ Bundle 'benmills/vimux'
 
 Bundle 'Lokaltog/vim-powerline'
 
+Bundle 'pyte'
 Bundle 'xoria256.vim'
 colorscheme xoria256
 
