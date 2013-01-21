@@ -7,4 +7,5 @@ if ! &diff
         \ }
 
   let g:syntastic_phpcs_conf = "--standard=saltation --encoding=utf-8"
+  let g:syntastic_phpmd_disable = 1
 endif
