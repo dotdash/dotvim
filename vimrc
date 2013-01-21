@@ -37,6 +37,8 @@ Bundle 'derekwyatt/vim-scala'
 Bundle 'indenthaskell.vim'
 Bundle 'syntaxhaskell.vim'
 
+Bundle 'wting/rust.vim'
+
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 
@@ -79,4 +81,6 @@ set mouse=a
 set wmnu wim=full
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+
+let g:no_rust_conceal=1
 nnoremap <leader>sv :source $MYVIMRC<cr>
