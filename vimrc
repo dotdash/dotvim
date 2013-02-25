@@ -15,6 +15,8 @@ Bundle 'Align'
 Bundle 'cscope_macros.vim'
 Bundle 'majutsushi/tagbar'
 
+Bundle 'Rip-Rip/clang_complete'
+
 Bundle 'tpope/vim-fugitive'
 
 Bundle 'tpope/vim-commentary'
