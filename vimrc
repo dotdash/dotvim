@@ -83,6 +83,7 @@ set smarttab backspace=indent,eol,start
 set mouse=a
 
 set wmnu wim=full
+set switchbuf=usetab,split
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 
