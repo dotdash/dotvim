@@ -51,6 +51,8 @@ Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'paradigm/SkyBison'
 
+Bundle 'Bogdanp/browser-connect.vim'
+
 Bundle 'VOoM'
 
 Bundle 'rking/ag.vim'
