@@ -51,6 +51,8 @@ Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'paradigm/SkyBison'
 
+Bundle 'terryma/vim-multiple-cursors'
+
 Bundle 'Bogdanp/browser-connect.vim'
 
 Bundle 'VOoM'
