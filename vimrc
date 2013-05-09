@@ -51,6 +51,8 @@ Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'paradigm/SkyBison'
 
+Bundle 'rking/ag.vim'
+
 Bundle 'Valloric/YouCompleteMe'
 
 Bundle 'pyte'
