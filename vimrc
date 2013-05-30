@@ -28,15 +28,7 @@ Bundle 'scrooloose/syntastic'
 
 Bundle 'tmallen/proj-vim'
 
-Bundle 'derekwyatt/vim-scala'
-
-Bundle 'indenthaskell.vim'
-Bundle 'syntaxhaskell.vim'
-
 Bundle 'wting/rust.vim'
-
-Bundle 'L9'
-Bundle 'FuzzyFinder'
 
 Bundle 'sudo.vim'
 
@@ -44,10 +36,6 @@ Bundle 'xml.vim'
 Bundle 'mattn/zencoding-vim'
 
 Bundle 'beyondwords/vim-twig'
-
-Bundle 'benmills/vimux'
-
-Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'paradigm/SkyBison'
 
@@ -61,7 +49,6 @@ Bundle 'rking/ag.vim'
 
 Bundle 'Valloric/YouCompleteMe'
 
-Bundle 'pyte'
 Bundle 'xoria256.vim'
 colorscheme xoria256
 
