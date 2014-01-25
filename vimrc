@@ -47,7 +47,6 @@ Bundle 'VOoM'
 
 Bundle 'rking/ag.vim'
 
-Bundle 'Valloric/YouCompleteMe'
 
 Bundle 'xoria256.vim'
 colorscheme xoria256
