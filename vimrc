@@ -39,8 +39,6 @@ Bundle 'beyondwords/vim-twig'
 
 Bundle 'paradigm/SkyBison'
 
-Bundle 'terryma/vim-multiple-cursors'
-
 Bundle 'Bogdanp/browser-connect.vim'
 
 Bundle 'VOoM'
