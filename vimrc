@@ -47,6 +47,9 @@ Bundle 'VOoM'
 
 Bundle 'rking/ag.vim'
 
+Bundle 'Shougo/vimproc'
+Bundle 'Shougo/neocomplete.vim'
+Bundle 'Shougo/neosnippet'
 
 Bundle 'xoria256.vim'
 colorscheme xoria256
