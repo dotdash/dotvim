@@ -22,8 +22,8 @@ Bundle 'tpope/vim-dispatch'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-vinegar'
 
-Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 
 Bundle 'tmallen/proj-vim'
