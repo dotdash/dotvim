@@ -51,8 +51,8 @@ Bundle 'Shougo/neocomplete.vim'
 Bundle 'Shougo/neosnippet'
 Bundle 'Shougo/unite.vim'
 
-Bundle 'xoria256.vim'
-colorscheme xoria256
+Bundle 'nanotech/jellybeans.vim'
+colorscheme jellybeans
 
 filetype plugin indent on
 syntax on
