@@ -16,6 +16,7 @@ Bundle 'cscope_macros.vim'
 Bundle 'majutsushi/tagbar'
 
 Bundle 'tpope/vim-fugitive'
+Bundle 'gregsexton/gitv'
 
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-dispatch'
