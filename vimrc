@@ -51,6 +51,7 @@ Bundle 'Shougo/neocomplete.vim'
 Bundle 'Shougo/neosnippet'
 Bundle 'Shougo/unite.vim'
 
+Bundle 'bling/vim-airline'
 Bundle 'nanotech/jellybeans.vim'
 colorscheme jellybeans
 
