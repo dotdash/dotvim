@@ -38,8 +38,6 @@ Bundle 'mattn/zencoding-vim'
 
 Bundle 'beyondwords/vim-twig'
 
-Bundle 'paradigm/SkyBison'
-
 Bundle 'Bogdanp/browser-connect.vim'
 
 Bundle 'VOoM'
