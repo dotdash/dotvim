@@ -1,6 +1,6 @@
 set guioptions=ci
 let &guicursor = &guicursor . ",a:blinkon0"
 
-set guifont=Source\ Code\ Pro\ for\ Powerline\ Medium\ 10
+set guifont=Terminess\ Powerline\ 9
 
 let $PAGER="cat"
