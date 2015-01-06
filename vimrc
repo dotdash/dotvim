@@ -36,8 +36,6 @@ Bundle 'mattn/zencoding-vim'
 
 Bundle 'beyondwords/vim-twig'
 
-Bundle 'Bogdanp/browser-connect.vim'
-
 Bundle 'VOoM'
 
 Bundle 'rking/ag.vim'
