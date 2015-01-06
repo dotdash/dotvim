@@ -1,3 +1,3 @@
-nnoremap <Leader>gg :Ggrep 
+nnoremap <Leader>gg :Ggrep -w 
 nnoremap <Leader>gb :Gblame
 nnoremap <Leader>gs :Gstatus
