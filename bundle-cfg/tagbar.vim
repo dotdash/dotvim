@@ -25,3 +25,25 @@ let g:tagbar_type_php = {
 		\ 'namespace' : 'n'
 	\ }
 \ }
+
+let g:tagbar_type_rust = {
+	\ 'replace' : 1,
+	\ 'ctagsargs' : '-f - ',
+	\ 'ctagsbin' : 'ctags',
+	\ 'sro' : '::',
+	\ 'kinds' : [
+		\ 'f:function definitions:0:0',
+		\ 'T:type definitions:0:0',
+		\ 'g:enumeration names:0:0',
+		\ 's:structure names:0:0',
+		\ 'm:module names:0:0',
+		\ 'c:static constants:0:0',
+		\ 't:traits:0:0',
+		\ 'i:trait implementations:0:0',
+		\ 'd:macro definitions:0:0'
+	\ ],
+	\ 'kind2scope' : {
+	\ },
+	\ 'scope2kind' : {
+	\ }
+\ }

@@ -41,6 +41,8 @@ endif
 
 let g:neocomplete#sources#omni#functions.mail = 'CompleteAddressBook'
 
+let g:neocomplete#sources#omni#input_patterns.rust = '\h\w*\|[^. \t]\.\%(\h\w*\)\?\|::\%(\h\w*\)\?'
+
 " let g:neocomplete#sources#omni#input_patterns.php = '\h\w*\|[^. \t]->\%(\h\w*\)\?\|\h\w*::\%(\h\w*\)\?'
 let g:neocomplete#force_omni_input_patterns.mail = '\v^(From|To|Cc|Bcc): .*'
 let g:neocomplete#sources#omni#input_patterns.typescript = '\h\w*\|[^. \t]\.\%(\h\w*\)\?'
