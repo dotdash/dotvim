@@ -46,6 +46,8 @@ Bundle 'Shougo/neosnippet'
 Bundle 'Shougo/unite.vim'
 
 Bundle 'bling/vim-airline'
+Bundle 'yaifa.vim'
+
 Bundle 'leafgarland/typescript-vim'
 
 Bundle 'nanotech/jellybeans.vim'
