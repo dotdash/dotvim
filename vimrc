@@ -27,8 +27,6 @@ Bundle 'tpope/vim-vinegar'
 
 Bundle 'scrooloose/syntastic'
 
-Bundle 'tmallen/proj-vim'
-
 Bundle 'wting/rust.vim'
 
 Bundle 'sudo.vim'
