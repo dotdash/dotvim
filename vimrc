@@ -78,6 +78,7 @@ set mouse=a
 
 set wmnu wim=full
 
+nnoremap  :vert stjump <cr>
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 
 let g:no_rust_conceal=1
