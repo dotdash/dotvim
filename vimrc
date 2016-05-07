@@ -41,8 +41,9 @@ Bundle 'VOoM'
 Bundle 'rking/ag.vim'
 
 Bundle 'Shougo/vimproc'
-Bundle 'Shougo/neocomplete.vim'
-Bundle 'Shougo/neosnippet'
+" Bundle 'Shougo/neocomplete.vim'
+" Bundle 'Shougo/neosnippet'
+" Bundle 'Shougo/neosnippet-snippets'
 Bundle 'Shougo/unite.vim'
 
 Bundle 'vim-airline/vim-airline'
@@ -51,6 +52,8 @@ Bundle 'vim-airline/vim-airline-themes'
 Bundle 'yaifa.vim'
 
 Bundle 'leafgarland/typescript-vim'
+
+Bundle 'Valloric/YouCompleteMe'
 
 Bundle 'nanotech/jellybeans.vim'
 colorscheme jellybeans
