@@ -1,5 +1,8 @@
 nnoremap <silent> <F10> :TagbarToggle<CR>
 
+let g:tagbar_sort = 0
+let g:tagbar_iconchars = ['+', '-']
+
 let g:tagbar_type_php = {
 	\ 'replace' : 1,
 	\ 'ctagsargs' : '-f - ',
