@@ -32,7 +32,7 @@ Bundle 'rust-lang/rust.vim'
 Bundle 'sudo.vim'
 
 Bundle 'xml.vim'
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 
 Bundle 'beyondwords/vim-twig'
 
