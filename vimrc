@@ -87,3 +87,5 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 set history=1024
 
 set path+=/usr/local/include/
+
+set ttymouse=sgr
