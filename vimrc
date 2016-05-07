@@ -8,54 +8,54 @@ let mapleader = "\\"
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-Bundle 'Align'
+Plugin 'Align'
 
-Bundle 'cscope_macros.vim'
-Bundle 'majutsushi/tagbar'
+Plugin 'cscope_macros.vim'
+Plugin 'majutsushi/tagbar'
 
-Bundle 'tpope/vim-fugitive'
-Bundle 'gregsexton/gitv'
+Plugin 'tpope/vim-fugitive'
+Plugin 'gregsexton/gitv'
 
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-dispatch'
-Bundle 'tpope/vim-unimpaired'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-vinegar'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-dispatch'
+Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-vinegar'
 
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 
-Bundle 'rust-lang/rust.vim'
+Plugin 'rust-lang/rust.vim'
 
-Bundle 'sudo.vim'
+Plugin 'sudo.vim'
 
-Bundle 'xml.vim'
-Bundle 'mattn/emmet-vim'
+Plugin 'xml.vim'
+Plugin 'mattn/emmet-vim'
 
-Bundle 'beyondwords/vim-twig'
+Plugin 'beyondwords/vim-twig'
 
-Bundle 'VOoM'
+Plugin 'VOoM'
 
-Bundle 'rking/ag.vim'
+Plugin 'rking/ag.vim'
 
-Bundle 'Shougo/vimproc'
-" Bundle 'Shougo/neocomplete.vim'
-" Bundle 'Shougo/neosnippet'
-" Bundle 'Shougo/neosnippet-snippets'
-Bundle 'Shougo/unite.vim'
+Plugin 'Shougo/vimproc'
+" Plugin 'Shougo/neocomplete.vim'
+" Plugin 'Shougo/neosnippet'
+" Plugin 'Shougo/neosnippet-snippets'
+Plugin 'Shougo/unite.vim'
 
-Bundle 'vim-airline/vim-airline'
-Bundle 'vim-airline/vim-airline-themes'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
-Bundle 'yaifa.vim'
+Plugin 'yaifa.vim'
 
-Bundle 'leafgarland/typescript-vim'
+Plugin 'leafgarland/typescript-vim'
 
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 
-Bundle 'nanotech/jellybeans.vim'
+Plugin 'nanotech/jellybeans.vim'
 colorscheme jellybeans
 
 filetype plugin indent on
