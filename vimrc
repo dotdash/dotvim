@@ -19,13 +19,14 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'gregsexton/gitv'
 
 Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-vinegar'
 
 Plugin 'scrooloose/syntastic'
+
+Plugin 'skywind3000/asyncrun.vim'
 
 Plugin 'rust-lang/rust.vim'
 
