@@ -11,3 +11,5 @@ let g:ycm_filetype_blacklist = {
 let g:ycm_collect_identifiers_from_tags_files = 1
 
 let g:ycm_rust_src_path = '/home/doener/src/rust-origin/src'
+
+nnoremap <leader>jd :YcmCompleter GoTo<CR>
