@@ -41,11 +41,11 @@ Plugin 'VOoM'
 
 Plugin 'rking/ag.vim'
 
-Plugin 'Shougo/vimproc'
+"Plugin 'Shougo/vimproc'
 " Plugin 'Shougo/neocomplete.vim'
 " Plugin 'Shougo/neosnippet'
 " Plugin 'Shougo/neosnippet-snippets'
-Plugin 'Shougo/unite.vim'
+"Plugin 'Shougo/unite.vim'
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
