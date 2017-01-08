@@ -57,6 +57,7 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rdnetto/YCM-Generator'
 
+Plugin 'cespare/vim-toml'
 Plugin 'nanotech/jellybeans.vim'
 colorscheme jellybeans
 
