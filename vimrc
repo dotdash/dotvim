@@ -1,5 +1,7 @@
 "let loaded_matchparen = 1
 
+set encoding=utf-8
+
 set nocompatible
 filetype off
 
