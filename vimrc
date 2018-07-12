@@ -7,61 +7,68 @@ filetype off
 
 let mapleader = "\\"
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call plug#begin()
 
-Plugin 'gmarik/vundle'
+Plug 'vim-scripts/Align'
 
-Plugin 'Align'
+Plug 'vim-scripts/cscope_macros.vim'
+Plug 'majutsushi/tagbar'
 
-Plugin 'cscope_macros.vim'
-Plugin 'majutsushi/tagbar'
+Plug 'tpope/vim-fugitive'
+Plug 'gregsexton/gitv'
 
-Plugin 'tpope/vim-fugitive'
-Plugin 'gregsexton/gitv'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-vinegar'
 
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-vinegar'
+Plug 'mustache/vim-mustache-handlebars'
 
-Plugin 'scrooloose/syntastic'
+Plug 'skywind3000/asyncrun.vim'
 
-Plugin 'skywind3000/asyncrun.vim'
+Plug 'rust-lang/rust.vim'
 
-Plugin 'rust-lang/rust.vim'
+Plug 'vim-scripts/sudo.vim'
 
-Plugin 'sudo.vim'
+Plug 'beyondwords/vim-twig'
 
-Plugin 'xml.vim'
-Plugin 'mattn/emmet-vim'
+Plug 'vim-scripts/VOoM'
 
-Plugin 'beyondwords/vim-twig'
+Plug 'rking/ag.vim'
 
-Plugin 'VOoM'
+Plug 'peterhoeg/vim-qml'
 
-Plugin 'rking/ag.vim'
+Plug 'shawncplus/phpcomplete.vim'
 
-"Plugin 'Shougo/vimproc'
-" Plugin 'Shougo/neocomplete.vim'
-" Plugin 'Shougo/neosnippet'
-" Plugin 'Shougo/neosnippet-snippets'
-"Plugin 'Shougo/unite.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+Plug 'vim-scripts/yaifa.vim'
 
-Plugin 'yaifa.vim'
+"Plug 'guyzmo/notmuch-abook'
 
-Plugin 'leafgarland/typescript-vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/YCM-Generator'
+Plug 'jason0x43/vim-js-indent'
+Plug 'leafgarland/typescript-vim'
 
-Plugin 'cespare/vim-toml'
-Plugin 'nanotech/jellybeans.vim'
-colorscheme jellybeans
+Plug 'tikhomirov/vim-glsl'
+
+Plug 'cespare/vim-toml'
+
+Plug 'Chiel92/vim-autoformat'
+
+Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
+
+"Plug 'nanotech/jellybeans.vim'
+Plug 'morhetz/gruvbox'
+call plug#end()
+
+set background=dark
+let g:gruvbox_italic=1
+colorscheme gruvbox
 
 filetype plugin indent on
 syntax on
