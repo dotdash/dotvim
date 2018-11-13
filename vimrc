@@ -48,9 +48,6 @@ Plug 'vim-scripts/yaifa.vim'
 
 "Plug 'guyzmo/notmuch-abook'
 
-Plug 'Valloric/YouCompleteMe'
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-
 Plug 'jason0x43/vim-js-indent'
 Plug 'leafgarland/typescript-vim'
 
@@ -60,7 +57,7 @@ Plug 'cespare/vim-toml'
 
 Plug 'Chiel92/vim-autoformat'
 
-Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
+Plug 'zxqfl/tabnine-vim'
 
 "Plug 'nanotech/jellybeans.vim'
 Plug 'morhetz/gruvbox'
