@@ -35,18 +35,24 @@ let g:tagbar_type_rust = {
 	\ 'ctagsbin' : 'ctags',
 	\ 'sro' : '::',
 	\ 'kinds' : [
-		\ 'f:function definitions:0:0',
-		\ 'T:type definitions:0:0',
-		\ 'g:enumeration names:0:0',
-		\ 's:structure names:0:0',
-		\ 'm:module names:0:0',
-		\ 'c:static constants:0:0',
-		\ 't:traits:0:0',
-		\ 'i:trait implementations:0:0',
-		\ 'd:macro definitions:0:0'
+		\ 'n:modules:0:1',
+		\ 's:structs:0:1',
+		\ 'i:trait interfaces:0:1',
+		\ 'c:implementation:0:1',
+		\ 'f:functions:0:1',
+		\ 'g:enums:0:1',
+		\ 't:type aliases:0:0',
+		\ 'v:globals:0:0',
+		\ 'M:macros:0:1',
+		\ 'm:struct fields:0:0',
+		\ 'e:enum variants:0:0',
+		\ 'P:methods:0:1'
 	\ ],
 	\ 'kind2scope' : {
-	\ },
-	\ 'scope2kind' : {
+			\ 's' : 'struct',
+			\ 'c' : 'implementation',
+			\ 'i' : 'interface',
+			\ 'g' : 'enum',
+			\ 'n' : 'module',
 	\ }
 \ }
