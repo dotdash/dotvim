@@ -25,3 +25,9 @@ function! PHPPreview()
 endfunction
 
 nnoremap <buffer> <F12> :call PHPPreview()<CR>
+
+let b:ale_linters = ['intelephense']
+nnoremap <silent> gd :ALEGoToTypeDefinition<CR>
+nnoremap <buffer>  :ALEGoToDefinition<CR>
+nnoremap <buffer> ] :ALEGoToDefinitionInSplit<CR>
+nnoremap <buffer>  :ALEGoToDefinitionInVSplit<CR>
