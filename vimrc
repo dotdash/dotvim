@@ -57,6 +57,8 @@ Plug 'Chiel92/vim-autoformat'
 
 Plug 'zxqfl/tabnine-vim'
 
+Plug 'w0rp/ale'
+
 Plug 'morhetz/gruvbox'
 call plug#end()
 
