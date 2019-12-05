@@ -39,8 +39,6 @@ Plug 'rking/ag.vim'
 
 Plug 'peterhoeg/vim-qml'
 
-Plug 'shawncplus/phpcomplete.vim'
-
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
