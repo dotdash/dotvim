@@ -24,4 +24,4 @@ function! PHPPreview()
   silent! %!php
 endfunction
 
-nnoremap <F12> :call PHPPreview()<CR>
+nnoremap <buffer> <F12> :call PHPPreview()<CR>
