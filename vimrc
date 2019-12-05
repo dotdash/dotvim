@@ -57,7 +57,6 @@ Plug 'Chiel92/vim-autoformat'
 
 Plug 'zxqfl/tabnine-vim'
 
-"Plug 'nanotech/jellybeans.vim'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
