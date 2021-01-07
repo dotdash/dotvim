@@ -57,7 +57,12 @@ Plug 'Chiel92/vim-autoformat'
 
 Plug 'zxqfl/tabnine-vim'
 
-Plug 'w0rp/ale'
+
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 
 Plug 'morhetz/gruvbox'
 call plug#end()
@@ -107,6 +112,11 @@ if &term =~ '^screen'
   execute "set <xDown>=\e[1;*B"
   execute "set <xRight>=\e[1;*C"
   execute "set <xLeft>=\e[1;*D"
+endif
+
+if &term =~ 'alacritty'
+  let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
 endif
 
 set termguicolors
