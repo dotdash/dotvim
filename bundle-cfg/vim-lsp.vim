@@ -1,4 +1,5 @@
 let g:lsp_diagnostics_echo_cursor = 1
+let g:lsp_document_code_action_signs_enabled = 0
 
 "let g:lsp_settings_root_markers = ['.root', 'composer.json', '.git', '.git/']
 let g:lsp_settings_root_markers = ['.root']
@@ -7,6 +8,7 @@ function! s:on_lsp_buffer_enabled() abort
     " setlocal omnifunc=lsp#complete
     setlocal signcolumn=yes
     if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
+    nmap <buffer> ga <plug>(lsp-code-action)
     nmap <buffer> gd <plug>(lsp-definition)
     nmap <buffer> gr <plug>(lsp-references)
     nmap <buffer> gi <plug>(lsp-implementation)
