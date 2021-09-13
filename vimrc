@@ -55,14 +55,17 @@ Plug 'cespare/vim-toml'
 
 Plug 'Chiel92/vim-autoformat'
 
-Plug 'zxqfl/tabnine-vim'
-
-
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
+
+Plug 'vim-denops/denops.vim'
+Plug 'Shougo/ddc.vim'
+Plug 'Shougo/ddc-matcher_head'
+Plug 'shun/ddc-vim-lsp'
+Plug 'LumaKernel/ddc-tabnine'
 
 Plug 'morhetz/gruvbox'
 call plug#end()
