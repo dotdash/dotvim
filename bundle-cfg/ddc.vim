@@ -1,8 +1,8 @@
-call ddc#custom#patch_global('sources', ['ddc-vim-lsp', 'tabnine'])
+call ddc#custom#patch_global('sources', ['vim-lsp', 'tabnine'])
 
 call ddc#custom#patch_global('sourceOptions',
       \ {
-      \   'ddc-vim-lsp': {
+      \   '_': {
       \     'matchers': ['matcher_head'],
       \     'mark': 'lsp',
       \   },
@@ -14,6 +14,13 @@ call ddc#custom#patch_global('sourceOptions',
       \     'mark': 'TN',
       \     'isVolatile': v:true,
       \     'maxSize': 200,
+      \   }
+      \ })
+
+call ddc#custom#patch_global('filterParams',
+      \ {
+      \   'matcher_fuzzy': {
+      \     'camelcase': v:true,
       \   }
       \ })
 
