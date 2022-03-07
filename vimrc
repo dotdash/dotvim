@@ -53,6 +53,8 @@ Plug 'tikhomirov/vim-glsl'
 
 Plug 'cespare/vim-toml'
 
+Plug 'lotabout/skim'
+Plug 'lotabout/skim.vim'
 
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
