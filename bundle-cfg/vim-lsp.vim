@@ -20,6 +20,7 @@ function! s:on_lsp_buffer_enabled() abort
     nmap <buffer> ]g <Plug>(lsp-next-diagnostic)
     nmap <buffer> K <plug>(lsp-hover)
     nmap <buffer> <F3> <plug>(lsp-document-format)
+    xmap <buffer> <F3> <plug>(lsp-document-range-format)
 endfunction
 
 
