@@ -4,6 +4,8 @@ let g:lsp_document_code_action_signs_enabled = 0
 "let g:lsp_settings_root_markers = ['.root', 'composer.json', '.git', '.git/']
 let g:lsp_settings_root_markers = ['.root']
 
+let g:lsp_tagfunc_source_methods = ['definition']
+
 function! s:on_lsp_buffer_enabled() abort
     " setlocal omnifunc=lsp#complete
     setlocal signcolumn=yes
