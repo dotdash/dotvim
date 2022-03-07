@@ -53,7 +53,6 @@ Plug 'tikhomirov/vim-glsl'
 
 Plug 'cespare/vim-toml'
 
-Plug 'Chiel92/vim-autoformat'
 
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
