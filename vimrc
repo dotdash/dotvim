@@ -142,3 +142,5 @@ if executable("rg")
 endif
 
 set suffixes+=.lock
+
+set autoread
