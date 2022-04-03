@@ -64,7 +64,6 @@ Plug 'mattn/vim-lsp-settings'
 
 Plug 'vim-denops/denops.vim'
 Plug 'Shougo/ddc.vim'
-Plug 'Shougo/ddc-matcher_head'
 Plug 'matsui54/ddc-matcher_fuzzy'
 Plug 'shun/ddc-vim-lsp'
 Plug 'LumaKernel/ddc-tabnine'
