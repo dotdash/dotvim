@@ -18,6 +18,13 @@ call ddc#custom#patch_global('sourceOptions',
       \   }
       \ })
 
+call ddc#custom#patch_global('sourceOptions',
+      \ {
+      \   'vim-lsp': {
+      \     'mark': 'lsp',
+      \     'dup': v:true,
+      \   }
+      \ })
 call ddc#custom#patch_global('filterParams',
       \ {
       \   'matcher_fuzzy': {
