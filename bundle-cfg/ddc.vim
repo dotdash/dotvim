@@ -4,7 +4,6 @@ call ddc#custom#patch_global('sourceOptions',
       \ {
       \   '_': {
       \     'matchers': ['matcher_fuzzy'],
-      \     'mark': 'lsp',
       \   },
       \ })
 
