@@ -42,3 +42,5 @@ exec 'hi LspErrorVirtualText term=italic,underline cterm=italic,underline gui=it
       \' ctermfg=' . synIDattr(synIDtrans(hlID('Error')), 'fg', 'cterm') .
       \' guifg=' . synIDattr(synIDtrans(hlID('Error')), 'fg', 'guifg')
 
+let g:lsp_diagnostics_virtual_text_prefix = '» '
+let g:lsp_diagnostics_virtual_text_delay = 0
