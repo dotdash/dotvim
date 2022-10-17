@@ -33,3 +33,12 @@ augroup END
 
 autocmd FileType markdown.lsp-hover
   \ nmap <silent><buffer>q :pclose<CR>| doautocmd <nomodeline> BufWinEnter
+
+hi LspWarningHighlight gui=undercurl cterm=undercurl guisp=yellow
+exec 'hi LspErrorHighlight cterm=undercurl gui=undercurl ' .
+      \' guisp=' . synIDattr(synIDtrans(hlID('Error')), 'fg', 'guifg')
+
+exec 'hi LspErrorVirtualText term=italic,underline cterm=italic,underline gui=italic,underline ' .
+      \' ctermfg=' . synIDattr(synIDtrans(hlID('Error')), 'fg', 'cterm') .
+      \' guifg=' . synIDattr(synIDtrans(hlID('Error')), 'fg', 'guifg')
+
