@@ -10,7 +10,7 @@ function! s:on_lsp_buffer_enabled() abort
     " setlocal omnifunc=lsp#complete
     setlocal signcolumn=yes
     if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
-    nmap <buffer> ga <plug>(lsp-code-action)
+    nmap <buffer> ga <plug>(lsp-code-action-float)
     nmap <buffer> gd <plug>(lsp-definition)
     nmap <buffer> gr <plug>(lsp-references)
     nmap <buffer> gi <plug>(lsp-implementation)
