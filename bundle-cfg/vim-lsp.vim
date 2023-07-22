@@ -1,3 +1,5 @@
+let g:lsp_use_native_client = 1
+
 let g:lsp_diagnostics_echo_cursor = 1
 let g:lsp_document_code_action_signs_enabled = 0
 
