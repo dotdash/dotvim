@@ -14,8 +14,8 @@ call ddc#custom#patch_global('sourceOptions',
       \ {
       \   'tabnine': {
       \     'mark': 'TN',
+      \     'maxItems': 5,
       \     'isVolatile': v:true,
-      \     'maxSize': 200,
       \   }
       \ })
 
