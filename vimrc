@@ -205,4 +205,5 @@ endif
 
 set suffixes+=.lock
 
+set nofoldenable
 set autoread
