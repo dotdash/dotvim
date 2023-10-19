@@ -33,6 +33,14 @@ call ddc#custom#patch_global('filterParams',
       \   }
       \ })
 
+call ddc#custom#patch_filetype(['php'], #{
+      \   keywordPattern: '(\$[a-zA-Z0-9_:]*|\k+)',
+      \ })
+
+call ddc#custom#patch_filetype(['vim'], #{
+      \   keywordPattern: '([bwtglsav]:\k*|\k+)',
+      \ })
+
 inoremap <silent><expr> <TAB>
                   \ pumvisible() ? '<C-n>' :
                   \ (col('.') <= 1 <Bar><Bar> getline('.')[col('.') - 2] =~# '\s') ?
