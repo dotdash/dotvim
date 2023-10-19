@@ -103,8 +103,6 @@ set history=1024
 
 set path+=/usr/local/include/
 
-set ttymouse=sgr
-
 if &term =~ '^screen'
   " tmux will send xterm-style keys when its xterm-keys option is on
   execute "set <xUp>=\e[1;*A"
