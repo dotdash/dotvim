@@ -41,6 +41,18 @@ exec 'hi LspErrorVirtualText term=italic,underline cterm=italic,underline gui=it
       \' ctermfg=' . synIDattr(synIDtrans(hlID('Error')), 'fg', 'cterm') .
       \' guifg=' . synIDattr(synIDtrans(hlID('Error')), 'fg', 'guifg')
 
+exec 'hi LspWarningVirtualText term=italic,underline cterm=italic,underline gui=italic,underline ' .
+      \' ctermfg=' . synIDattr(synIDtrans(hlID('Todo')), 'fg', 'cterm') .
+      \' guifg=' . synIDattr(synIDtrans(hlID('Todo')), 'fg', 'guifg')
+
+exec 'hi LspInformtionVirtualText term=italic,underline cterm=italic,underline gui=italic,underline ' .
+      \' ctermfg=' . synIDattr(synIDtrans(hlID('Normal')), 'fg', 'cterm') .
+      \' guifg=' . synIDattr(synIDtrans(hlID('Normal')), 'fg', 'guifg')
+
+exec 'hi LspHintVirtualText term=italic,underline cterm=italic,underline gui=italic,underline ' .
+      \' ctermfg=' . synIDattr(synIDtrans(hlID('Normal')), 'fg', 'cterm') .
+      \' guifg=' . synIDattr(synIDtrans(hlID('Normal')), 'fg', 'guifg')
+
 let g:lsp_diagnostics_virtual_text_prefix = '» '
 let g:lsp_diagnostics_virtual_text_delay = 0
 let g:lsp_diagnostics_virtual_text_align = 'after'
