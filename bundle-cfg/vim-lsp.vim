@@ -57,3 +57,7 @@ let g:lsp_diagnostics_virtual_text_prefix = '» '
 let g:lsp_diagnostics_virtual_text_delay = 0
 let g:lsp_diagnostics_virtual_text_align = 'after'
 let g:lsp_diagnostics_virtual_text_wrap = 'truncate' 
+
+if getcwd() == expand('~')
+    let g:lsp_auto_enable = 0
+endif
