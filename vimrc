@@ -59,6 +59,8 @@ Plug 'lotabout/skim.vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
+Plug 'editorconfig/editorconfig-vim'
+
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 
