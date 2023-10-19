@@ -77,10 +77,6 @@ call plug#end()
 filetype plugin indent on
 syntax on
 
-for cfg in split(globpath("$HOME/.vim/bundle-cfg", "*.vim"))
-	exec "source" cfg
-endfor
-
 set nobackup writebackup backupcopy=yes
 
 set laststatus=2
@@ -197,6 +193,10 @@ endif
 set background=dark
 let g:gruvbox_italic=1
 colorscheme gruvbox
+
+for cfg in split(globpath("$HOME/.vim/bundle-cfg", "*.vim"))
+	exec "source" cfg
+endfor
 
 if executable("rg")
   set grepprg=rg\ --vimgrep\ --no-heading
