@@ -53,6 +53,11 @@ exec 'hi LspHintVirtualText term=italic,underline cterm=italic,underline gui=ita
       \' ctermfg=' . synIDattr(synIDtrans(hlID('Normal')), 'fg', 'cterm') .
       \' guifg=' . synIDattr(synIDtrans(hlID('Normal')), 'fg', 'guifg')
 
+let g:lsp_diagnostics_float_insert_mode_enabled = 0
+let g:lsp_diagnostics_highlights_insert_mode_enabled = 0
+let g:lsp_diagnostics_signs_insert_mode_enabled = 0
+let g:lsp_diagnostics_virtual_text_insert_mode_enabled = 0
+
 let g:lsp_diagnostics_virtual_text_prefix = '» '
 let g:lsp_diagnostics_virtual_text_delay = 0
 let g:lsp_diagnostics_virtual_text_align = 'after'
