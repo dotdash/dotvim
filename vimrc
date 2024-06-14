@@ -198,6 +198,8 @@ if executable("rg")
   set grepformat=%f:%l:%c:%m,%f:%l:%m
 endif
 
+set switchbuf=uselast
+
 set suffixes+=.lock
 
 set nofoldenable
