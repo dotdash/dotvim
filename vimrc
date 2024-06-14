@@ -15,7 +15,6 @@ Plug 'vim-scripts/cscope_macros.vim'
 Plug 'majutsushi/tagbar'
 
 Plug 'tpope/vim-fugitive'
-Plug 'gregsexton/gitv'
 
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-unimpaired'
