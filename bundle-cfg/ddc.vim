@@ -34,11 +34,19 @@ call ddc#custom#patch_global('filterParams',
       \ })
 
 call ddc#custom#patch_filetype(['php'], #{
-      \   keywordPattern: '(\$[a-zA-Z0-9_:]*|\k+)',
+      \   sourceOptions: #{
+      \     _: #{
+      \       keywordPattern: '(\$[a-zA-Z0-9_:]*|\k+)',
+      \     }
+      \   }
       \ })
 
 call ddc#custom#patch_filetype(['vim'], #{
-      \   keywordPattern: '([bwtglsav]:\k*|\k+)',
+      \   sourceOptions: #{
+      \     _: #{
+      \       keywordPattern: '([bwtglsav]:\k*|\k+)',
+      \     }
+      \   }
       \ })
 
 inoremap <silent><expr> <TAB>
