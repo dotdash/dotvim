@@ -34,8 +34,6 @@ Plug 'beyondwords/vim-twig'
 
 Plug 'vim-scripts/VOoM'
 
-Plug 'rking/ag.vim'
-
 Plug 'peterhoeg/vim-qml'
 
 Plug 'vim-airline/vim-airline'
