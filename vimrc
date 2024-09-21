@@ -205,5 +205,6 @@ set switchbuf=uselast
 
 set suffixes+=.lock
 
+set directory=~/.vim/swap
 set nofoldenable
 set autoread
