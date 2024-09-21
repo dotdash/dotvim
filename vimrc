@@ -32,8 +32,6 @@ Plug 'skywind3000/asyncrun.vim'
 
 Plug 'rust-lang/rust.vim'
 
-Plug 'vim-scripts/sudo.vim'
-
 Plug 'beyondwords/vim-twig'
 
 Plug 'vim-scripts/VOoM'
