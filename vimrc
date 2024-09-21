@@ -187,6 +187,7 @@ if &term =~ '^tmux'
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 endif
 
+set completeopt=menu,popup
 set background=dark
 let g:gruvbox_italic=1
 colorscheme gruvbox
