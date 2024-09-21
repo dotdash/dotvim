@@ -69,6 +69,7 @@ Plug 'Shougo/ddc-ui-native'
 Plug 'tani/ddc-fuzzy'
 Plug 'shun/ddc-vim-lsp'
 Plug 'LumaKernel/ddc-tabnine'
+Plug 'matsui54/denops-signature_help'
 
 Plug 'morhetz/gruvbox'
 call plug#end()
