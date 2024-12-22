@@ -22,6 +22,7 @@ function! PHPPreview()
   put =eval('getbufline(' . l:bufno . ', 1, 99999999999)')
   0d
   silent! %!php
+  normal p
 endfunction
 
 nnoremap <buffer> <F12> :call PHPPreview()<CR>
