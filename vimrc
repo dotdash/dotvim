@@ -72,6 +72,8 @@ Plug 'shun/ddc-vim-lsp'
 Plug 'LumaKernel/ddc-tabnine'
 Plug 'matsui54/denops-signature_help'
 
+Plug 'NoahTheDuke/vim-just'
+
 Plug 'morhetz/gruvbox'
 call plug#end()
 
