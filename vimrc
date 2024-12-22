@@ -64,6 +64,7 @@ Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 
 Plug 'vim-denops/denops.vim'
+Plug 'vim-denops/denops-shared-server.vim'
 Plug 'Shougo/ddc.vim'
 Plug 'Shougo/ddc-ui-native'
 Plug 'tani/ddc-fuzzy'
