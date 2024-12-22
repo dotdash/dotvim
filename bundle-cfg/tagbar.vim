@@ -6,7 +6,7 @@ let g:tagbar_iconchars = ['+', '-']
 let g:tagbar_type_php = {
 	\ 'replace' : 1,
 	\ 'ctagsargs' : '-f - ',
-	\ 'ctagsbin' : 'ptags',
+	\ 'ctagsbin' : 'ctags',
 	\ 'sro' : '::',
 	\ 'kinds' : [
 		\ 'n:namespace:0:1',
